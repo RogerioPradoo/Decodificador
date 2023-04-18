@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/utils/style/style.css">
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="loader">
+            <div class="name">
+                <h1>Decodificador</h1>
+            </div>
+            <span style="--i: 1"></span>
+            <span style="--i: 2"></span>
+            <span style="--i: 3"></span>
+            <span style="--i: 4"></span>
+            <span style="--i: 5"></span>
+            <span style="--i: 6"></span>
+            <span style="--i: 7"></span>
+            <span style="--i: 8"></span>
+            <span style="--i: 9"></span>
+            <span style="--i: 10"></span>
+        </div>
+        <div class="containerText">
+            <div id="text-area">
+                <div class="div-text">
+                    <textarea placeholder="Digite aqui" class="textArea" id="textMsg" cols="30" rows="10"></textarea>
+                    <p><strong>ATENÇÃO:</strong> Não é permitido letras maiúsculas e acentuações</p>
+                </div>
+            </div>
+
+
+            <div id="text-img">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <img src="/utils/img/boneco-alura.png" alt="Boneco Alura">
+                <p>Digite um texto que deseja criptografar ou descriptografar.</p>
+            </div>
+        </div>
+
+
+        <div class="buttons">
+            <div class="container-bnt">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="/utils/script/script.js"></script>
+</body>
+
+</html>
